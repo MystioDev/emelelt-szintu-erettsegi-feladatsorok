@@ -1,18 +1,27 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="hu">
   <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Morzekód</title>
+
+    <link rel="stylesheet" href="stilus.css" />
   </head>
   <body>
-    <div id="tartalom">
-      Morzekód
+    <div id="tartalom" class="">
+      <h1>Morzekód</h1>
       <p>
         1838. január 6-án mutatta be először Samuel Morse az elektromos
         távírókészülékét. Az azóta világszerte megismert morzekódrendszert
         számos területen használják
       </p>
-      Samuel Morse életrajza
+      <nav>
+        <a href="#samuel-elete">Samuel Morse életrajza</a>
+        <a href="#a-kodok-eredete">A kódok eredete</a>
+        <a href="#a-morzejelek">A morzejelek</a>
+      </nav>
+      <h2 id="samuel-elete">Samuel Morse életrajza</h2>
+      <img src="SFB_Morse.jpg" alt="Samuel Morse" class="bal" />
+
       <p>
         Morse Charlestownban, Boston közelében, Massachusetts államban, az
         Amerikai Egyesült Államokban született, egy kálvinista lelkész és
@@ -34,7 +43,7 @@
         szórakoztatta. Morse is végignézte az előadást, és nagyon magával
         ragadta a bemutató.
       </p>
-      A kódok eredete
+      <h2 id="a-kodok-eredete">A kódok eredete</h2>
       <p>
         Olyannyira, hogy még a hajón kidolgozta hirtelen támadt ötletét: egy
         távíró elég vázlatos tervrajzát, aminek használatához egy olyan
@@ -46,7 +55,8 @@
         tovább dolgozott a szerkezeten, és az ábécéjén, amit először 1837-ben
         szabadalmaztatott. Egy morzebillentyű:
       </p>
-      A morzejelek
+      <h2 id="a-morzejelek">A morzejelek</h2>
+      <img src="billentyu.png" alt="Távíró billentyűje" class="kozep" />
       <p>
         A különböző betűket pontok és vonalkák kombinációjával jelölte. Ha
         ránézünk az ábécére, elsőre talán úgy tűnhet, hasraütésszerűen rendelte
@@ -60,6 +70,9 @@
         lett az egy vonalka, és minél ritkábban használt betű következett, annál
         hosszabb kódot kapott.
       </p>
+
+      <p class="table-title">Betűk morzekódja</p>
+
       <table>
         <tr>
           <th>Betű</th>
