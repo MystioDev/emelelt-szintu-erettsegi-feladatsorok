@@ -1,0 +1,1 @@
+SELECT nevado FROM feladatsor WHERE nevado NOT LIKE '% % %';
