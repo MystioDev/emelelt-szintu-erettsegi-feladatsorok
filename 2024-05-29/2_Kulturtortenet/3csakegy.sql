@@ -1,1 +1,1 @@
-SELECT nevado FROM feladatsor WHERE nevado NOT LIKE '% % %';
+SELECT nevado FROM feladatsor WHERE nevado LIKE '% %' AND nevado NOT LIKE '% % %';
