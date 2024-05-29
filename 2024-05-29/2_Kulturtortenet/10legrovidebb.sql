@@ -1,0 +1,1 @@
+SELECT feladatsor.nevado, Min(Datediff(feladatsor.hatarido, feladatsor.kituzes)) FROM feladatsor;
